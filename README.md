@@ -25,3 +25,6 @@ Some frequent problems that can occur:
   
 2. The WolFX theme isn't loading, what am I doing wrong?
   Try restarting Discord (this can be done with CTRL + R, this way Discord will be reloaded) and try again.
+  
+  
+If you have any questions you can add me on Discord (Velorexe#8403)
