@@ -166,22 +166,18 @@ There are also other transition types (like 'ease-ease'), but 'linear' works bes
   -webkit-filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.8));
 }
 
-.private-channels .channel:hover {
-  -webkit-filter: drop-shadow(0px 0px 2px rgba(255, 255, 255, 0.8));
-}
-
-.private-channels .channel.selected {
-  background-color: rgba(0, 0, 0, 0);
+.private-channels .channel.selected a {
+  background-color: rgba(242, 54, 56, 0.4);
 }
 
 .private-channels .channel:hover a {
-  background-color: rgba(0, 0, 0, 0);
-  color: transparent;
+  background-color: rgba(242, 54, 56, 0.2);
 }
 
-.private-channels .channel.selected a {
-  background-color: transparent;
-  -webkit-filter: drop-shadow(0px 0px 2px rgba(255, 255, 255, 0.8));
+.private-channels .channel a {
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 .theme-dark .headerNormal-T_seeN {
@@ -325,7 +321,8 @@ There are also other transition types (like 'ease-ease'), but 'linear' works bes
 }
 
 .app {
-  background-image: url(https://i.pinimg.com/originals/38/51/8c/38518cc76d1965753247e4d35f82037a.jpg);
+  background-image: url(https://i.imgur.com/gY5dyR9.png);
+  background-size: cover;
 }
 
 .app .welcomeMessage-3_Mcht h1 {
@@ -397,7 +394,7 @@ There are also other transition types (like 'ease-ease'), but 'linear' works bes
   background-image: url(https://cdn.rawgit.com/Velorexe/a9082ed31a37e62406d91bfb6664b2ac/raw/7b23ebd41c6a9d7dbe8f5f996dacb016d3711b0d/Twitter.svg);
 }
 
-.contentHoveredText-2D9B-x, .contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM {
+.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .theme-dark .button-1ZXqCA {
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
@@ -407,8 +404,24 @@ There are also other transition types (like 'ease-ease'), but 'linear' works bes
   background-color: rgba(242, 54, 56, 0.4);
 }
 
+.content-20Aix8{
+    transition: all 0.2s linear;
+}
+
+.content-20Aix8:hover{
+    background-color: rgba(242, 54, 56, 0.2);
+}
+
+.nameHoveredText-1uO31y{
+    transition: all 0.2s linear;
+}
+
+.icon-1792kv{
+    transition: all 0.2s linear;
+}
+
 .contentHoveredText-2D9B-x {
-  background-color: rgba(242, 54, 56, 0.2);
+  background-color: transparent;
 }
 
 .theme-dark.popouts-3dRSmE.da-themeDark.da-popouts>div>div>div.item-1GzJrl.invite-271nFU.da-item.da-invite>div.icon-2doZ3q.da-icon {
@@ -424,13 +437,7 @@ There are also other transition types (like 'ease-ease'), but 'linear' works bes
   color: rgba(147, 168, 151, 1);
 }
 
-.option-popout .btn-item {
-  -webkit-transition: all 0.1s linear;
-  -o-transition: all 0.1s linear;
-  transition: all 0.1s linear;
-}
-
-.option-popout .btn-item:hover {
+.theme-dark .button-1ZXqCA:hover {
   background-color: rgba(40, 43, 48, 1);
   color: rgba(255, 255, 255, 1);
 }
@@ -493,4 +500,13 @@ There are also other transition types (like 'ease-ease'), but 'linear' works bes
 }
 .theme-dark .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV, .theme-light .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover {
     background-color: #f23638;
+}
+.theme-dark .gamePreview-9weYR2 {
+    background-color: rgba(32, 34, 37, 0.9);
+}
+.theme-dark .body-1SVoBw {
+    background-color: rgba(32, 34, 37, 0.9);
+}
+.theme-dark .message-group a{
+    color: #f23638;
 }
