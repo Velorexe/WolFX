@@ -510,3 +510,12 @@ There are also other transition types (like 'ease-ease'), but 'linear' works bes
 .theme-dark .message-group a{
     color: #f23638;
 }
+.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3{
+    background-color:transparent;
+}
+.theme-dark .messagesWrapper-3lZDfY{
+    background-color:transparent;
+}
+.theme-dark .guildsWrapper-5TJh6A{
+    background-color:transparent;
+}
