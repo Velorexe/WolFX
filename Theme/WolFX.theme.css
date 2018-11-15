@@ -15,10 +15,6 @@ The !important component is for overriding Discord's own CSS elements (Better Di
   background: rgba(0, 0, 0, 0) !important;
 }
 
-
-
-
-
 .layers-3iHuyZ {
   background: rgba(0, 0, 0, var(--background-brightness)) !important;
 }
@@ -522,4 +518,23 @@ There are also other transition types (like 'ease-ease'), but 'linear' works bes
 }
 .theme-dark .guildsWrapper-5TJh6A{
     background-color:transparent;
+}
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4{
+    background-color:transparent;
+}
+.theme-dark .inner-zqa7da{
+    background-color:rgba(114,118,125,.1);
+}
+.scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece{
+    border-color:transparent;
+    background-color:transparent;
+}
+.scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece{
+    background-color:transparent;
+}
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece{
+    background-color:transparent;
+}
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb{
+    border-color:transparent;
 }
