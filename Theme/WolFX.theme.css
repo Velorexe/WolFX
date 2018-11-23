@@ -3,16 +3,37 @@
 :root {
     -transparent: rgba(0,0,0,0);
     
-    -light-red: #f23638;
-    -dark-red: #910f11;
+    -lightred: #f23638;
+    -darkred: #910f11;
     
-    -dark-grey: rgba(32, 34, 37, 0.9);
+    -darkgrey: rgba(32, 34, 37, 0.9);
 }
 
 /*Setting up Images*/
 .app {
-  background-image : url(https://i.imgur.com/gY5dyR9.png);
+  background-image : url(https://i.imgur.com/mDkqdnG.png);
   background-size : cover;
+}
+
+.appMount-3VJmYg{
+    background-image : url(https://i.imgur.com/XtvcZb7.png);
+}
+
+/*Background - App*/
+.appMount-3VJmYg{
+    background-color : transparent;
+}
+
+.theme-dark .layers-3iHuyZ{
+    background : transparent;
+}
+
+.theme-dark .layer-3QrUeG{
+    background : transparent;
+}
+
+.container-2lgZY8{
+    background-color : transparent;
 }
 
 /*Background - Server Wraper*/
@@ -50,7 +71,7 @@
 }
 
 .theme-dark .inner-zqa7da{
-    background-color : var(--dark-grey);
+    background-color : rgba(32, 34, 37, 0.9);
 }
 
 /*Background - Server Members*/
@@ -66,4 +87,18 @@
 /*Background - Scrollbar*/
 .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece{
     background-color : transparent;
+}
+
+/*Animations*/
+.avatarSpeaking-1wJCNq{
+    transition: all 0.1s linear;
+}
+
+.nameDefault-2s3kbY{
+    transition: all 0.1s linear;
+}
+
+/*Avatars*/
+.avatarSpeaking-1wJCNq{
+    box-shadow : 0 0 0 2px #f23638, inset 0 0 0 1.5px;
 }
